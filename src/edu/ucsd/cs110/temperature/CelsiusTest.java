@@ -15,7 +15,7 @@ public class CelsiusTest {
 // Verify the prefix of the formatted string assertTrue(string.endsWith(ending));
 // Verify the middle of the formatted string int endIndex = string.indexOf(ending);
 // (Hint: what is the length of the middle of the string?)
-        int endIndex = 5;
+        int endIndex = string.length();
         assertTrue(string.substring(0, endIndex).equals(beginning)); }
     @Test
     public void testCelsiusToCelsius() {
